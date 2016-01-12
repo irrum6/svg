@@ -2,20 +2,24 @@
 var polline=document.getElementById("polyline1");
 var points=polline.points;
 
-//define some constanst
+//define some constants.
 var height=550;
 //init
 for(var i=0;i<points.length;i++){
+    /*Both, svg and canvas have a nonordinary Y axis.
+    The positive part of the Y axis is below the Zero Point (Point 0,0 the start).
+    And negative part is upper the start. so 51 on their y axis is below 50 and -51 tops 51.
+    We take that strangeness into account and correct our code accordingly.*/
     points[i].y=height-Math.round(Math.random()*height);
-    console.log(points[i].y);
     }
+
 //edit
 setInterval(function(){
     for(var i=0;i<points.length-1;i++){
-        //push forward
+        //push array forward
         points[i].y=points[i+1].y
-        console.log(points[i].y);
     }
     //initiate the last one
     points[points.length-1].y=height-Math.round(Math.random()*height);
-},1000);
+    //set interval 3/5 second (600 miliseconds)
+},600);
