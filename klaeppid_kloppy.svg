@@ -28,7 +28,7 @@
      inkscape:document-units="mm"
      inkscape:zoom="1.07"
      inkscape:cx="195.79439"
-     inkscape:cy="116.35514"
+     inkscape:cy="115.42056"
      inkscape:window-width="1832"
      inkscape:window-height="1011"
      inkscape:window-x="88"
@@ -58,19 +58,20 @@
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
        id="rect2"
        width="20"
-       height="17.79994"
+       height="18"
        x="64.075012"
        y="121.18367"
-       ry="8.8999701" />
+       ry="9"
+       rx="20" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
        id="rect3"
        width="20"
-       height="18.111528"
+       height="18"
        x="96.979042"
        y="121.44706"
-       ry="9.0557642"
-       rx="0" />
+       ry="9"
+       rx="10" />
     <g
        id="path4">
       <path
